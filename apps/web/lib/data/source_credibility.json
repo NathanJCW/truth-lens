@@ -1,0 +1,56 @@
+{
+  "A_CLASS": {
+    "description": "权威官方媒体 - 1.0",
+    "domains": [
+      "xinhuanet.com",
+      "people.com.cn",
+      "cctv.com",
+      "gov.cn",
+      "reuters.com",
+      "apnews.com",
+      "bbc.com",
+      "nytimes.com",
+      "wsj.com",
+      "bloomberg.com",
+      "caixin.com"
+    ]
+  },
+  "B_CLASS": {
+    "description": "专业/严肃媒体 - 0.8",
+    "domains": [
+      "thepaper.cn",
+      "infzm.com",
+      "jiemian.com",
+      "yicai.com",
+      "36kr.com",
+      "techcrunch.com",
+      "theverge.com",
+      "nature.com",
+      "sciencemag.org"
+    ]
+  },
+  "C_CLASS": {
+    "description": "综合性门户/普通新闻 - 0.5",
+    "domains": [
+      "sina.com.cn",
+      "163.com",
+      "qq.com",
+      "sohu.com",
+      "yahoo.com",
+      "msn.com"
+    ]
+  },
+  "D_CLASS": {
+    "description": "社交媒体/自媒体 (需警惕) - 0.2",
+    "domains": [
+      "weibo.com",
+      "twitter.com",
+      "x.com",
+      "facebook.com",
+      "reddit.com",
+      "zhihu.com",
+      "douban.com",
+      "toutiao.com"
+    ]
+  }
+}

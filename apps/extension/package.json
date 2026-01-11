@@ -1,0 +1,39 @@
+{
+  "name": "extension",
+  "displayName": "Truth Lens",
+  "version": "0.1.0",
+  "description": "Chrome Extension for Truth Lens",
+  "author": "Truth Lens Team",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "framer-motion": "10.16.4",
+    "lucide-react": "0.263.1",
+    "plasmo": "0.84.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.258",
+    "@types/node": "20.5.1",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.27",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
+  },
+  "manifest": {
+    "permissions": [
+      "activeTab"
+    ],
+    "host_permissions": [
+      "https://*/*",
+      "http://localhost:3000/*"
+    ]
+  }
+}
